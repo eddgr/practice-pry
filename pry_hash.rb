@@ -5,9 +5,8 @@ foods = {
   snacky: ["doritos", "kitkat", "gummy worms", super_snacky: ["party mix", "popcorn"]]
 }
 
-binding.pry
-
 # How would I return the hash of :super_healthy?
+binding.pry
 
 # How can I return the first item in :super_snacky?
 
