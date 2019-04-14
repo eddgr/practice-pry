@@ -5,6 +5,15 @@ fruits = ["bananas", "apples", "oranges", ["strawberries", "raspberries", ["toma
 # How can we get the return_the_tomato method working?
 
 def return_the_tomato(array)
+  # Example of a Pry that requires scrolling
+  #
+  #
+  #
+  #
+  #
+  #
+  #
+  #
   binding.pry
 end
 
