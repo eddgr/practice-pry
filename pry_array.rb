@@ -4,21 +4,16 @@ fruits = ["bananas", "apples", "oranges", ["strawberries", "raspberries", ["toma
 
 # How can we get the return_the_tomato method working?
 
-def return_the_tomato(array)
-  # Example of a Pry that requires scrolling
-  #
-  #
-  #
-  #
-  #
-  #
-  #
-  #
-  binding.pry
+def return_the_tomato(fruits)
+  fruits.last.last.join
 end
 
-return_the_tomato(fruits)
-
 # How can we create a new method that returns "strawberries"?
+def return_the_strawberries(fruits)
+  fruits.last.first
+end
 
 # How can we create a new method that returns a new array of fruits that ends in "berries"?
+def return_the_berries(fruits)
+  fruits.last.first(2)
+end
