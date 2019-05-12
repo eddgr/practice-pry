@@ -3,7 +3,6 @@ require 'pry'
 fruits = ["bananas", "apples", "oranges", ["strawberries", "raspberries", ["tomato"]]]
 
 # How can we get the return_the_tomato method working?
-
 def return_the_tomato(fruits)
   fruits.last.last.join
 end
